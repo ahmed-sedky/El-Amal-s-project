@@ -8,6 +8,10 @@
 a{
     text-decoration: none;
 }
+.container{
+    width:1170px;
+    margin:auto;
+}
 main{
     background-color: black;
     height: 100px;
@@ -91,7 +95,7 @@ header:hover{
     transform: scale(1.2);
     transform: scale(1.2);
 }
-/*start nav*/
+/*start na*/
 nav{
     background-color: rgba(225, 225, 15, 0.6);
     margin-top: -16px;
@@ -113,7 +117,7 @@ nav ul li{
     transition: 1s all ease-in-out;
 }
 nav a:hover{
-    color:blue;
+color:blue
 }
 nav ul li::after{
     content: "  | ";
@@ -193,7 +197,103 @@ p mark{
     }
 }
 /*end of welcome*/
-/*strat footer*/
+/* start Articles*/
+article{
+    -webkit-border-radius: 15px;
+    -o-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+
+    border-radius: 15px;
+    margin-bottom: 40px;
+    padding: 20px;
+    width: 1000px;
+    height: 316px;
+    border :2px solid black;
+    position: relative;
+    top: 75px;
+    left:10px;
+    background-color: rgba(225, 225, 15, 0.15);
+}
+article span{
+    position: absolute;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    top: -1px;
+    width: 303px;
+    height: 313px;
+    left: -1px;
+    background: url("../Images/El-Amal's Logo.jpg") no-repeat center;
+    background-size: cover;
+    -webkit-transition:all 1s ease-in-out;
+    -moz-transition:all 1s ease-in-out;
+    -ms-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+
+    transition:all 1s ease-in-out;
+}
+article span:hover{
+    -webkit-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    -ms-transform:scale(1.2);
+    transform: scale(1.2);
+}
+article .first{
+    position: absolute;
+    left:30%;
+    padding-left: 30px;
+    height: 100%;
+}
+article h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: -18px;
+    -webkit-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -moz-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -o-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -ms-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    text-shadow: 
+                    3px 5px 7px #ffa50096, 
+                    1px 2px 2px #f4de36ab;
+}
+article h2:hover{
+    color:white;
+    width:400px;
+}
+article p{
+    font-size: 15px;
+}
+article p:hover{
+    text-decoration: underline;
+}
+article p:first-of-type::first-letter{
+    font-size:30px;
+}
+.main{
+    height:437px;
+}
+.main span{
+    height:434px;
+}
+article .second{
+    position: absolute;
+    left:30%;
+    padding-left: 30px;
+    height: 100%;
+}
+article .second li:hover{
+    color: blue;
+}
+/*start footer*/
 footer{
     background-color: black;
     color:white;
@@ -218,3 +318,124 @@ footer{
                     1px 2px 2px #f4de36ab;
 }
 /*end footer*/
+/* start slides*/
+.slide-show{
+    width: 500px;
+height: 300px;
+margin: 50px 250px 50px;
+padding: 0;
+}
+.slide-show h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 124px;
+    -webkit-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -moz-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -o-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    -ms-text-shadow: 
+    3px 5px 7px #ffa50096, 
+    1px 2px 2px #f4de36ab;
+    text-shadow: 
+                    3px 5px 7px #ffa50096, 
+                    1px 2px 2px #f4de36ab;
+}
+.slide-show h2:hover{
+    color:white;
+}
+
+.slide {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+.slide li {
+    position: absolute;
+    top: 25px;
+    left: 98px;
+}
+.img1{
+    -webkit-animation: xfade 15s 0s infinite;
+    -moz-animation: xfade 15s 0s infinite;
+    -o-animation: xfade 15s 0s infinite;
+    -ms-animation: xfade 15s 0s infinite;
+
+    animation: xfade 15s 0s infinite;
+}
+.img2{
+    -webkit-animation: xfade 15s 5s infinite;
+    -moz-animation: xfade 15s 5s infinite;
+    -o-animation: xfade 15s 5s infinite;
+    -ms-animation: xfade 15s 5s infinite;
+
+    animation: xfade 15s 5s infinite;
+}
+.img3{
+    -webkit-animation: xfade 15s 10s infinite;
+    -moz-animation: xfade 15s 10s infinite;
+    -o-animation: xfade 15s 10s infinite;
+    -ms-animation: xfade 15s 10s infinite;
+
+    animation: xfade 15s 10s infinite;
+}
+@-webkit-keyframes xfade{
+    17% {
+    opacity:1;
+    }
+    25% {
+    opacity:0;
+    }
+    92% {
+    opacity:0;
+    }
+}
+@-moz-keyframes xfade{
+    17% {
+    opacity:1;
+    }
+    25% {
+    opacity:0;
+    }
+    92% {
+    opacity:0;
+    }
+}@-o-keyframes xfade{
+    17% {
+    opacity:1;
+    }
+    25% {
+    opacity:0;
+    }
+    92% {
+    opacity:0;
+    }
+}@-ms-keyframes xfade{
+    17% {
+    opacity:1;
+    }
+    25% {
+    opacity:0;
+    }
+    92% {
+    opacity:0;
+    }
+}
+@keyframes xfade{
+    17% {
+    opacity:1;
+    }
+    25% {
+    opacity:0;
+    }
+    92% {
+    opacity:0;
+    }
+}
+
+
